@@ -1,6 +1,7 @@
 # Data Structures(자료구조) Index
 
 1. [List](#-list)
+   
     1.1. [ArrayList](#-arraylist)
 
 ---
