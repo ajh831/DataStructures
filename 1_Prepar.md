@@ -1,4 +1,5 @@
 # 수행시간 빅오 그래프 표기 및 이름
+![image](https://github.com/user-attachments/assets/23dae375-faa2-47f9-bace-98e29f8005dc)
 
 - O(1) : 상수 시간
 - O(logn) : 로그 시간
