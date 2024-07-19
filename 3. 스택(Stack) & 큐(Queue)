@@ -13,9 +13,7 @@
 - push() : 새로운 항목 저장하기
 - pop() : 가장 위에 있는 항목 꺼내기
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/6e7b24b7-8a81-400c-a724-8330697d2f1e/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/5564899f-b0d8-49b9-9768-3c31d134e490/Untitled.png)
+<img width="685" alt="image" src="https://github.com/user-attachments/assets/93bab704-c6b9-49ba-aab7-17a6d8f7dffe">
 
 스택을 배열로 구현하는 경우 top은 저장된 배열 원소의 인덱스를 갖는다.
 
@@ -57,11 +55,11 @@
 
 큐를 배열로 구현하는 경우 삽입, 삭제 연산을 거듭하게 되는 경우 큐의 항목이 배열 오른쪽으로 편중되는 문제가 발생하기 때문이다.(새 항목은 뒤에서 삽입되고, 삭제는 앞에서 일어나기 때문)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/408734eb-a993-40fe-b15a-cc12cfa34845/Untitled.png)
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/7238fda6-6d5c-4363-904a-6f88b2cec307">
 
 이 경우 항목을 이동하지 않고 시작 노드와 끝 노드의 위치를 지정해준다면 배열도 큐로 이용이 가능하다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/a76cfd0e-00e3-4117-bbf2-85c5ed80a158/Untitled.png)
+<img width="696" alt="image" src="https://github.com/user-attachments/assets/9e546eb3-ac31-4e5b-aa0b-fbbcd34a3aae">
 
 처음과 마지막의 위치를 옮겨주는 경우에도 또다른 문제가 발생한다.
 
@@ -69,17 +67,17 @@
 
 이 문제를 해결하기 위해서 empty가 되는 경우 `front = rear = 0`이 되도록 하는 것이다. 하지만 이러한 방법은 효율성을 떨어트린다고 한다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/a009a03e-7c91-4227-b7f8-90a8e0f2b98c/Untitled.png)
+<img width="612" alt="image" src="https://github.com/user-attachments/assets/4830607f-6970-4491-ad6e-c0e9f75d3da8">
 
 또한, 꽉 찬 경우도 front와 rear가 같은 곳을 가리키고 있기 때문에 배열이 비어있는 건지 꽉 찬건지 알 수가 없다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/ca318554-ed2b-4c02-bcca-855a2e353946/Untitled.png)
+<img width="707" alt="image" src="https://github.com/user-attachments/assets/e57e28d3-a7d4-4af9-ae02-d5cb9e13cc99">
 
 이 문제를 해결하는 방법은 n-1 위치를 비워주는 것이다.(linkedlist인 경우는 비워주지 않아도 괜찮음)
 
 front == rear 가 되면 초기 상태랑 동일해지는 것을 알 수 있다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/dcb83837-3efb-432a-bcef-ad5107e376d6/Untitled.png)
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/515b8f3a-404a-471d-a4c0-c2532dab03a1">
 
 ### 💡포인트
 
@@ -94,7 +92,7 @@ front == rear 가 되면 초기 상태랑 동일해지는 것을 알 수 있다.
 
 스택과 큐를 혼합한 자료구조이다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/a7e1e85e-d6f9-43d3-8475-0933babeaf4a/be9ba000-cd28-42c7-a69a-b59d93346954/Untitled.png)
+<img width="724" alt="image" src="https://github.com/user-attachments/assets/adedcfb0-6454-417b-b8eb-6c7fb8b79cd2">
 
 ### 데크을 활용하여 구현할 수 있는 예시
 
